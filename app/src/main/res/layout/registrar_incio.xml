@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#BA4169"
+    android:textAlignment="textEnd">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BA4169"
+        android:text="Registrarme"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="Si, Ya cuento con una."
+        android:textColor="#BA4169"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comfirmacion de Contraseña"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:text="Ejemplo: Pasteleria"
+        android:textColor="#807E7E"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="268dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="344dp"
+        tools:text="contraseña1" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="268dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="413dp"
+        tools:text="contraseña1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="268dp"
+        android:layout_height="41dp"
+        android:text="I agree to the Terms of services and Privacy Policy."
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de eEmprendimiento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Emprendimiento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:text="Nombre del emprendimiento"
+        android:textColor="#807E7E"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:text="Correo electronico"
+        android:textColor="#807E7E"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:text="Nombre Completo"
+        android:textColor="#807E7E"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#BA4169"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya tienes una cuenta?"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/capi"
+        tools:layout_editor_absoluteY="590dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
