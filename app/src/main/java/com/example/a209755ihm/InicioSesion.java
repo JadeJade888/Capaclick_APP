@@ -19,6 +19,8 @@ public class InicioSesion extends AppCompatActivity implements View.OnClickListe
 
         olvidoContrasenia =  (Button) findViewById(R.id.button4);
         olvidoContrasenia.setOnClickListener(this);
+
+
     }
 
 
